@@ -12,7 +12,7 @@ namespace Test
 		public int solution(int num1, int num2)
 		{
 			int count = 0;
-			int sum = num1 << 8 + num1 << 7 + num1 << 6 + num1 << 5 + num1 << 3;
+			int sum = (num1 << 9) + (num1 << 8) + (num1 << 7) + (num1 << 6) + (num1 << 5) + (num1 << 3);
 
 			while(true)
 			{
