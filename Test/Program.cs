@@ -4,7 +4,10 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			_30 ccc = new _30();
+			string aa = "abcdef";
+
+			Console.WriteLine(ccc.solution(aa));
 		}
 	}
 }
