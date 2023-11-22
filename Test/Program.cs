@@ -4,10 +4,11 @@
 	{
 		static void Main(string[] args)
 		{
-			_30 ccc = new _30();
-			string aa = "abcdef";
+			_34 aa = new _34();
 
-			Console.WriteLine(ccc.solution(aa));
+			Console.WriteLine((int)'a');
+			Console.WriteLine((int)'A');
+			Console.Write(aa.solution("ZbcAdABBdefg"));
 		}
 	}
 }
