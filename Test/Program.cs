@@ -4,11 +4,9 @@
 	{
 		static void Main(string[] args)
 		{
-			_34 aa = new _34();
+			_46 adf = new _46();
 
-			Console.WriteLine((int)'a');
-			Console.WriteLine((int)'A');
-			Console.Write(aa.solution("ZbcAdABBdefg"));
+			Console.Write(adf.solution("one4seveneight"));
 		}
 	}
 }
