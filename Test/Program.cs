@@ -4,9 +4,13 @@
 	{
 		static void Main(string[] args)
 		{
-			_46 adf = new _46();
+			_47 adf = new _47();
+			string[] str = { "abce", "abcd", "cdx" };
+			str = adf.solution(str, 1);
 
-			Console.Write(adf.solution("one4seveneight"));
+			Console.WriteLine(str[0]);
+			Console.WriteLine(str[1]);
+			Console.WriteLine(str[2]);
 		}
 	}
 }
