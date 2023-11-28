@@ -71,6 +71,7 @@ namespace Test
 				}
 
 				// 들어있는 수만큼의 범위에서 order 진행
+				// 이거 MSDN보고 따라함(원리 모름)
 				IEnumerable<string> sortAscendingQuery =
 					from str in strings
 					where str[n] == target

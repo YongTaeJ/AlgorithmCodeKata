@@ -4,13 +4,13 @@
 	{
 		static void Main(string[] args)
 		{
-			_47 adf = new _47();
-			string[] str = { "abce", "abcd", "cdx" };
-			str = adf.solution(str, 1);
+			_51 algo = new _51();
+			int[] food = { 1, 3, 4, 6 };
 
-			Console.WriteLine(str[0]);
-			Console.WriteLine(str[1]);
-			Console.WriteLine(str[2]);
+			string answer = algo.solution(food);
+
+			Console.WriteLine(answer);
+
 		}
 	}
 }
