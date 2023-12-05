@@ -4,12 +4,11 @@
 	{
 		static void Main(string[] args)
 		{
-			_51 algo = new _51();
-			int[] food = { 1, 3, 4, 6 };
+			_60 algo = new _60();
 
-			string answer = algo.solution(food);
 
-			Console.WriteLine(answer);
+			Console.WriteLine(algo.solution(5,3,2));
+			Console.WriteLine(algo.solution(10,3,2));
 
 		}
 	}
