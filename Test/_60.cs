@@ -10,21 +10,27 @@ namespace Test
 	{
 		public int solution(int number, int limit, int power)
 		{
-			// 약수의 개수는 노가다?
 			int answer = 0;
-			int count;
-			for(int i=1; i<=number; i++)
-			{
-				count = 0;
-				for(int j=1; j<=i; j++)
-				{
-					if(i % j == 0)
-						count++;
-				}
 
-				if (count <= limit)
-					answer += count;
-				else answer += power;
+			int count;
+
+			for (int i = 1; i <= number; i++)
+			{
+				int j;
+				count = 0;
+
+				for (j = 1; j * j <= i; j++)
+				{
+					if (i % j == 0)
+					{
+						count++;
+					}
+				}
+				count *= 2;
+				if ((j - 1) * (j - 1) == i) count--;
+
+				if (count > limit) answer += power;
+				else answer += count;
 			}
 
 			return answer;
